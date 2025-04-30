@@ -1,0 +1,30 @@
+.contact {
+  border: 2px solid black;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.userData {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.dataBox {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.contactButton {
+  font-size: 20px;
+  outline: 2px solid rgb(126, 123, 123);
+  padding: 7px 15px;
+  border-radius: 4px;
+  background-color: rgb(241, 236, 236);
+}
